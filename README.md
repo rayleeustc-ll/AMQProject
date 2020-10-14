@@ -12,7 +12,7 @@
 
 1. cd Receiver folder
 
-2. Ctrl +F5 or run 
+2. Ctrl+F5 or run 
 
    ```csharp
    dotnet run
@@ -22,7 +22,7 @@
 
 1. cd Sender folder
 
-2. Ctrl +F5 or run 
+2. Ctrl+F5 or run 
 
    ```csharp
    dotnet run

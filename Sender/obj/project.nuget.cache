@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "e2zXVZ/IXls4QyLdvu2i1j6eKZDY1AufuJXG4X1JNnmosVBh1LIIg5AzWnaiDJLgAAlfSdQew1WvAv7dbUO0fA==",
+  "success": true,
+  "projectFilePath": "C:\\Ying\\Projects\\AMQProject\\Sender\\Sender.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\11282\\.nuget\\packages\\amqpnetlite.core\\2.4.0\\amqpnetlite.core.2.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

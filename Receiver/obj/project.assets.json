@@ -1,0 +1,99 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "AMQPNetLite.Core/2.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Amqp.Net.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Amqp.Net.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AMQPNetLite.Core/2.4.0": {
+      "sha512": "zdNj0mnbHRvXUKISORE28FJ03opzcQUXwxiVIuATLIwqLS7RS3p5WFaqhDdpric3fHYW+ZF0Vn0dtRCvD8e6Dg==",
+      "type": "package",
+      "path": "amqpnetlite.core/2.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "amqpnetlite.core.2.4.0.nupkg.sha512",
+        "amqpnetlite.core.nuspec",
+        "lib/netstandard1.3/Amqp.Net.dll",
+        "lib/netstandard1.3/Amqp.Net.xml",
+        "lib/netstandard2.0/Amqp.Net.dll",
+        "lib/netstandard2.0/Amqp.Net.xml"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "AMQPNetLite.Core >= 2.4.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\11282\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Ying\\Projects\\AMQProject\\Receiver\\Receiver.csproj",
+      "projectName": "Receiver",
+      "projectPath": "C:\\Ying\\Projects\\AMQProject\\Receiver\\Receiver.csproj",
+      "packagesPath": "C:\\Users\\11282\\.nuget\\packages\\",
+      "outputPath": "C:\\Ying\\Projects\\AMQProject\\Receiver\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\11282\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "AMQPNetLite.Core": {
+            "target": "Package",
+            "version": "[2.4.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
